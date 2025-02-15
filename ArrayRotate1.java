@@ -6,11 +6,11 @@ public class ArrayRotate1 {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the steps to rotate the Array : ");
         int steps = sc.nextInt();
-        rotate(arr, steps);
-        System.out.print("Original Array : ");
         for(int z : arr){
             System.out.print(z+ " ");
         }
+        rotate(arr, steps);
+        System.out.print("Original Array : ");
         System.out.print("\nModified Array : ");
         for(int k : arr){
             System.out.print(k + " ");
